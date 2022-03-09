@@ -22,7 +22,7 @@ def totalFruit(fruits):
   windowStart=0
   for windowEnd in range(len(fruits)):
     f1=fruits[windowEnd]
-    if f1 in fruits_dict:
+    if f1 not in fruits_dict:
       fruits_dict[f1]=1
     else:
       fruits_dict[f1]=1
