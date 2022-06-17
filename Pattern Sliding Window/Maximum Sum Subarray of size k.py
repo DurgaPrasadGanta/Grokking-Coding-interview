@@ -24,6 +24,8 @@ def findMaxAverage(nums,k):
       maxSum=sum
   return (maxSum/k)
 
+print(findMaxAverage([2,1,5,1,3,2],3))
+print(findMaxAverage([2,3,4,1,5],2))
 '''
 Time Complexity: o(n)
 Space Complexity: o(1)
