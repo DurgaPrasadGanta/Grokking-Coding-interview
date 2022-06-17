@@ -20,6 +20,9 @@ def maxSubarrayOfSizeK(nums,k):
       maxSum=s
   return maxSum
 
+print(maxSubarrayOfSizeK([2,3,4,1,5],2))
+print(maxSubarrayOfSizeK([2,1,5,1,3,2],3))
+
 '''
 Time Complexity: o(n)
 Space Complexity: o(1)
