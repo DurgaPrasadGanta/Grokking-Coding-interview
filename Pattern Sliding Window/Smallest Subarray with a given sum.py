@@ -35,6 +35,9 @@ def minSubArrayLen(nums,k):
   else:
     return result
   
+print(minSubArrayLen([2, 1, 5, 2, 3, 2],7))
+print(minSubArrayLen([2, 1, 5, 2, 8],7))
+print(minSubArrayLen([3, 4, 1, 1, 6],8))
 '''
 Time Complexity 
 The time complexity of the above algorithm will be O(N). 
