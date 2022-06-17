@@ -35,6 +35,9 @@ def totalFruit(fruits):
     res=max(res,windowEnd-windowStart+1)
   return res
 
+fruits = ['A', 'B', 'C', 'A', 'C']
+print(totalFruit(fruits))
+
 
 '''
 Time Complexity 
