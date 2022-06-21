@@ -36,6 +36,10 @@ def longest_substring_with_k_distinct(s,K):
     res=max(res,windowEnd-windowStart+1)
   return res
 
+print(longest_substring_with_k_distinct('araaci',2))
+print(longest_substring_with_k_distinct('araaci',1))
+print(longest_substring_with_k_distinct('cbbebi',3))
+
 '''
 Time Complexity 
 The time complexity of the above algorithm will be O(N) where ‘N’ is the number of characters in the input string. 
