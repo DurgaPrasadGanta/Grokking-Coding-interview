@@ -41,7 +41,7 @@ def string_Anagrams(s,p):
         matched+=1
     if matched==len(p_d):
       result.append(windowStart)
-    if windowEnd-windowStart+1>=len(p_d):
+    if windowEnd+1>=len(p):
       rightChar=s[windowStart]
       if rightChar in p_d:
         if p_d[rightChar]==0:
