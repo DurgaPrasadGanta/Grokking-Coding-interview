@@ -48,7 +48,7 @@ def find_permutation(s,p):
         matched+=1
     if matched == len(p_d):
       return True
-    if windowEnd-windowStart+1>=len(p_d):
+    if windowEnd+1>=len(p):
       if s[windowStart] in p_d:
         print(p_d[s[windowStart]])
         if p_d[s[windowStart]]==0:
