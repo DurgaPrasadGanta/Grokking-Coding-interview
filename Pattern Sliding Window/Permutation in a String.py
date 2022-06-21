@@ -62,10 +62,11 @@ print(find_permutation('odicf','dc'))
 print(find_permutation('bcdxabcdy','bcdyabcdx'))
 print(find_permutation('aaacb','abc'))
 
-
+'''
 Time Complexity:
 The time complexity of the above algorithm will be O(N + M) where ‘N’ and ‘M’ are the number of characters in the input string and the pattern respectively.
 
 Space Complexity:
 The space complexity of the algorithm is O(M) since in the worst case, 
 the whole pattern can have distinct characters which will go into the HashMap.
+'''
